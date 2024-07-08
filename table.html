@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
-        table{
+        table {
             border-collapse: collapse;
-            
+
         }
-        td,th{
+
+        td,
+        th {
             border: 1px solid black;
             padding: 5px 10px;
             text-align: center;
         }
     </style>
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
+
 <body>
-    <h1>HTML table</h1>
-    <table>
-        <caption>salary</caption>
-        <thead>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-        </thead>
-        
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>microsoft</td>
-                <td>bill gates</td>
-                <td>1000</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>microsoft</td>
-                <td>bill gates</td>
-                <td>1000</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4">total</td>
-            </tr>
-        </tfoot>
-    </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">table</a>
+                        </li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML table</h1>
+        <table>
+            <caption>salary</caption>
+            <thead>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>microsoft</td>
+                    <td>bill gates</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>microsoft</td>
+                    <td>bill gates</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">total</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
 </body>
+
 </html>

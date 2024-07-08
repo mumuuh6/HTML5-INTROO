@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">table</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul></li>
+                <li><a href="blog.html">blog</a></li>
             </ul>
         </nav>
     </header>
+    <!-- header>nav>ul.dropdown>li*4>a>lorem500 -->
     <main>
         <article>
             <header>
@@ -23,7 +32,7 @@
                 <p>published on <time datetime="2029-05-07">May 27,2029</time> </p>
             </header>
             <figure>
-                <img src="img/mumu.jpg" height="200px" width="300px" alt="">
+                <img src="img/mumu.jpg" height="200px" width="300px" alt="loading">
                 <figcaption>Blue</figcaption>
             </figure>
         </article>
